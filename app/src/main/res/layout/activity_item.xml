@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2D9E6"
+    android:orientation="vertical"
+    tools:context=".ItemActivity"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/big_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/p1" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="item name"
+        android:textColor="#E51793"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#B41515"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/innerlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No. of orders"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/no_item"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="input orders"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:background="#1736E6"
+        android:onClick="orderItem"
+        android:text="Order"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="90dp"
+        android:background="#1736E6"
+        android:onClick="mainActivity"
+        android:text="Order another item"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="90dp"
+        android:background="#1736E6"
+        android:onClick="showOrders"
+        android:text="Done with ordering"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OrderMyFood</string>
+    <string-array name="food">
+        <item>Sandwich</item>
+        <item>Burger</item>
+        <item>Raita</item>
+        <item>Shahi paneer</item>
+        <item>Mix Veg.</item>
+        <item>Veg. fried rice</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Lassi</item>
+        <item>Naan Roti</item>
+        <item>butter roti</item>
+        <item>Missi roti</item>
+    </string-array>
+</resources>
